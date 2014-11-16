@@ -33,13 +33,15 @@ class MainHandler(webapp2.RequestHandler):
         treemap = wf.treemapdata(ourreviews)
         appimages = wf.imagelist(ourreviews)
         versionaverages = wf.versionaverages(ourreviews)
+        barchartdatasize = len(versionaverages)
 
 
         template_values = {
             'treemap_data': treemap,
             'versionaverages_data': versionaverages,
             'appimages': appimages,
-            'reportdate': wf.today()
+            'reportdate': wf.today(),
+            'barchartheight': barchartdatasize * 700 / 1200
         }
 
         template = JINJA_ENVIRONMENT.get_template('index.html')
