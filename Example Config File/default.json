@@ -1,0 +1,108 @@
+{
+  "apps": [
+        {
+      "name": "News App",
+      "id": "377382255",
+      "product": "Other BBC Apps",
+      "color": "grey",
+      "makebig": false,
+      "showicon": true
+    },
+    {
+      "name": "Sport App",
+      "id": "377388936",
+      "product": "Other BBC Apps",
+      "color": "grey",
+      "makebig": false,
+      "showicon": false
+    },
+    {
+      "name": "Weather App",
+      "id": "649420946",
+      "product": "Other BBC Apps",
+      "color": "grey",
+      "makebig": false,
+      "showicon": false
+    },
+    {
+      "name": "iPlayer App",
+      "id": "416580485",
+      "product": "Other BBC Apps",
+      "color": "grey",
+      "makebig": false,
+      "showicon": true
+    },
+    {
+      "name": "iPlayer Radio App",
+      "id": "560458506",
+      "product": "Other BBC Apps",
+      "color": "grey",
+      "makebig": false,
+      "showicon": false
+    },
+    {
+      "name": "The Voice App",
+      "id": "626158647",
+      "product": "Other BBC Apps",
+      "color": "grey",
+      "makebig": false,
+      "showicon": false
+    },
+    {
+      "name": "Wolfblood",
+      "id": "910207825",
+      "product": "CBBC",
+      "color": "green",
+      "makebig": false,
+      "showicon": true
+    },
+    {
+      "name": "Ludus",
+      "id": "756893909",
+      "product": "CBBC",
+      "color": "green",
+      "makebig": false,
+      "showicon": false
+    },
+    {
+      "name": "Strange Hill High",
+      "id": "891284550",
+      "product": "CBBC",
+      "color": "green",
+      "makebig": false,
+      "showicon": true
+    },
+    {
+      "name": "Gory Games",
+      "id": "871735475",
+      "product": "CBBC",
+      "color": "green",
+      "makebig": false,
+      "showicon": false
+    },
+    {
+      "name": "Go CBBC",
+      "id": "917694813",
+      "product": "CBBC",
+      "color": "green",
+      "makebig": false,
+      "showicon": true
+    },
+    {
+      "name": "CBeebies Playtime",
+      "id": "684211403",
+      "product": "CBeebies",
+      "color": "gold",
+      "makebig": true,
+      "showicon": true
+    },
+    {
+      "name": "CBeebies Storytime",
+      "id": "891730883",
+      "product": "CBeebies",
+      "color": "gold",
+      "makebig": true,
+      "showicon": false
+    }
+  ]
+}
