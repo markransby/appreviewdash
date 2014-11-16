@@ -7,10 +7,10 @@ Google App Engine application
 
 Implements 4 endpoints:
 
-/               ...show the dashboard
-/treemap        ...just show the treemap visualisation
-/versionratings ...just show the bar chart
-/json           ...dump the review objects (handy for saving history with curl under cron)
+* / - show the dashboard
+* /treemap - just show the treemap visualisation (for iframing into a dashboard?)
+* /versionratings - just show the bar chart
+* /json - dump the review objects (handy for saving history with curl under cron)
 
 All endpoints accept a config parameter to allow you to serve different audiences from the same instance.
 
