@@ -67,10 +67,12 @@ class VersionRatingsHandler(webapp2.RequestHandler):
         ourreviews = fc.populate_reviews(config)
 
         versionaverages = wf.versionaverages(ourreviews)
+        barchartdatasize = len(versionaverages)
 
 
         template_values = {
-            'versionaverages_data': versionaverages
+            'versionaverages_data': versionaverages,
+            'barchartheight': barchartdatasize * 700 / 1200
         }
 
         template = JINJA_ENVIRONMENT.get_template('versionratings.html')
