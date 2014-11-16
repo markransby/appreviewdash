@@ -1,0 +1,25 @@
+<html>
+  <head>
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable({{ versionaverages_data }});
+        var options = {
+          legend: {position: 'none'},
+          title: 'Average Rating by App Version',
+          hAxis: {minValue: 1, maxValue: 5}
+        };
+        var chart = new google.visualization.BarChart(document.getElementById('chart_div2'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+
+    <div id="chart_div2" style="width: 900px; height: 700px;"></div>
+
+  </body>
+</html>

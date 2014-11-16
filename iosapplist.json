@@ -1,0 +1,39 @@
+{
+  "apps": [
+    {
+      "name": "Wolfblood",
+      "id": "910207825",
+      "product": "cbbc"
+    },
+    {
+      "name": "Ludus",
+      "id": "756893909",
+      "product": "cbbc"
+    },
+    {
+      "name": "Strange Hill High",
+      "id": "891284550",
+      "product": "cbbc"
+    },
+    {
+      "name": "Gory Games",
+      "id": "871735475",
+      "product": "cbbc"
+    },
+    {
+      "name": "Go CBBC",
+      "id": "917694813",
+      "product": "cbbc"
+    },
+    {
+      "name": "CBeebies Playtime",
+      "id": "684211403",
+      "product": "cbeebies"
+    },
+    {
+      "name": "CBeebies Storytime",
+      "id": "891730883",
+      "product": "cbeebies"
+    }
+  ]
+}
