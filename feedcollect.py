@@ -8,7 +8,8 @@ class Review(object):
         self.rating = int(rating)
         self.title = title
         self.comment = comment
-        self.appversion = appversion
+#        self.appversion = appversion
+        self.appversion = "iOS"
         self.image = image
         self.reviewid = reviewid
         self.color = color

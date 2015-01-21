@@ -11,7 +11,8 @@ def httpget(url):
         handleError(e)
 
 def get_feed(appid):
-    return json.load(httpget("https://itunes.apple.com/gb/rss/customerreviews/id=" + str(appid) + "/sortBy=mostRecent/json"))
+#    return json.load(httpget("https://itunes.apple.com/gb/rss/customerreviews/id=" + str(appid) + "/sortBy=mostRecent/json"))
+    return json.load(httpget("https://s3-eu-west-1.amazonaws.com/applefeedcache/" + str(appid) + ".json"))
 
 def get_apps(config):
     return json.load(httpget("https://s3-eu-west-1.amazonaws.com/appreviewconfig/" + config + ".json"))["apps"]
